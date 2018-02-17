@@ -1,0 +1,1 @@
+def find_o(search_str):    index = 0    while index < len(search_str) and \          search_str[index] != 'o':        index += 1    return indexprint(find_o("eeyore"))print(find_o("pooh"))print(find_o("tigger"))
